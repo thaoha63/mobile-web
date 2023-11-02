@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Smart Study</title>
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <!-- dec -->
+        <div class="img__dec">
+          <img src="./img/dec-a.png" alt="leaf" />
+        </div>
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.png" alt="website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#about">About</a></li>
+            <li class="navbar__link"><a href="#problem">Problem</a></li>
+            <li class="navbar__link"><a href="#solution">Solution</a></li>
+            <li class="navbar__link"><a href="#contact">Contact</a></li>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/banner.jpg" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+                <!-- dec -->
+        <div class="img__dec">
+          <img src="./img/dec-a.png" alt="leaf" />
+        </div>
+        <div class="banner__heading">
+          <h1>Hello, Smart Study</h1>
+          <p>
+            Empowering NYU Students to Thrive in Learning. 
+          </p>
+          <a href="#about"><button class="banner__btn">Learn More</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <!-- heading -->
+        <h2> About Us</h2>
+<!--         <div class="about__img">
+          <img src="./img/books.png" alt="illustration of women" /> -->
+        <!-- item 1 -->
+        <div class="about__item">
+          <!-- img -->
+          <img src="./img/smart.png" alt="illustration of women" />
+          <!-- text -->
+          <div class="about__item--heading">
+            <h3>What is Smart Study?</h3>
+              <p>
+                    Smart Study is your academic buddy, specially designed for NYU students. Our focus is on quality resources and reliable support, not overwhelming you with a ton of stuff. We're all about bringing NYU students together, and our chatbot comes with a team of real experts. Think of Smart Study as your go-to study partner at NYU, delivering exactly what you need, precisely when you need it.
+              </p>
+          </div>
+        </div>
+      </section>
+
+    <!-- Problem -->
+    <section id="problem">
+      <div class="container">
+          <!-- heading -->
+        <!-- dec -->
+        <div class="img__dec">
+          <img src="./img/dec-a.png" alt="leaf" />
+        </div>
+        <!-- dec -->
+      <!-- dec -->
+        <div class="img__dec">
+          <img src="./img/dec-b.png" alt="leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Problem</h2>
+        <!-- item 1 -->
+        <div class="problem__item">
+          <!-- img -->
+          <img src="./img/content .png" alt="illustration of women" />
+          <!-- text -->
+          <div class="problem__item--heading">
+            <h3>Overwhelming Content</h3>
+            <p>
+              70% of students experience overwhelming frustration due to the sheer volume of study materials and content. This overwhelming feeling hinders their learning experience and impacts their academic success.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="problem__item">
+          <!-- img -->
+          <img src="./img/self-study.png " alt="illustration of women" />
+          <!-- text -->
+          <div class="problem__item--heading">
+            <h3>Self-Study Abandonment</h3>
+            <p>
+              20% of students end up giving up on self-study due to the stress and frustration caused by the overwhelming content. This dropout rate underscores the urgent need for a solution that simplifies and enhances the learning process.
+            </p>
+          </div>
+        </div>
+    </section>
+       
+       <!-- Solution -->
+    <section id="solution" class="pt">
+      <div class="container">
+        <!-- heading -->
+        <div class="solution_item--heading">
+        <h1> Solution</h1>
+      </div>
+        <div class="wrapper">
+          <div class="solution__cards">
+            <!-- card 1 -->
+            <div class="solution__card">
+              <img src="./img/materials.jpg" alt="girl coughing illustration" />
+              <h2>Organized Materials</h2>
+              <p>
+               Preview and review more efficiently 
+              </p>
+            </div>
+            <!-- card 2 -->
+            <div class="solution__card">
+              <img src="./img/exam.png" alt="holding hands illustration" />
+              <h2> Sample Test</h2>
+              <p>
+                Help student to get 100% in exams
+              </p>
+            </div>
+
+            <!-- card 3 -->
+            <div class="solution__card">
+              <img src="./img/bot.png" alt="holding hands illustration" />
+              <h2> Online Chatbots</h2>
+              <p>
+                An answer can save a lot of time
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="pt">
+    <div class ="contact">
+    <h2>Contact Us</h2>
+  <div class="row">
+    <div class="column">
+      <img src="./img/contact.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="contact_form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="campus">Campus</label>
+        <select id="campus" name="campus">
+          <option value="australia">Manhattan</option>
+          <option value="canada">Brooklyn</option>
+        </select>
+        <label for="fname">NYU Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email.">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
